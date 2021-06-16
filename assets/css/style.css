@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  text-decoration: none;
+}
+
+a {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body {
+  background-color: #ebe8e8;
+  padding: 25px 50px;
+}
+
+body > header {
+  background-color: rgba(99, 96, 96, 0.952);
+  padding: 25px 0;
+}
+
+body > header > h1 {
+  color: white;
+}
+
+body > main {
+  background-color: beige;
+}
+
+body > main > section.description > p.differentText {
+  width: 750px;
+  margin: 25px;
+}
+
+body > main > section.survey {
+  margin: 10px 25px;
+}
+
+body > main > section.survey fieldset {
+  padding: 5px 15px;
+}
+
+body > main > section.survey fieldset form input,
+body > main > section.survey fieldset form textarea {
+  margin: 5px 0;
+}
+
+body > main > section.about table, body > main > section.about th, body > main > section.about td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body > main > section.about > table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+body > main > section.about > table h3, body > main > section.about > table td {
+  text-align: left;
+  padding: 5px;
+}
+
+body > footer {
+  background-color: #8f8a8a;
+  padding: 25px 0;
+}
+/*# sourceMappingURL=style.css.map */
